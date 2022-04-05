@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    height: 760px;
+    background: #27ace5;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.box{
+    box-sizing: border-box;
+    display: flex;
+    width: 400px;
+    background: white;
+    height: 150px;
+    margin: 30px;
+    border-radius: 15px;
+    
+}
+.fa-align-right{
+    margin: 25px;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+.head{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: orange;
+    font-size: 25px;
+}
+.text{
+    color: black;
+    font-size: 15px;
+    margin-right: 17px;
+    margin-top: 20px;
+}
