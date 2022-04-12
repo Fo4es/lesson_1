@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+
+    .main_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .abcdefg{
+        width: 100%;
+    }
+    .h{
+        height: 100px;
+        width: 100%;
+    }
+
+}

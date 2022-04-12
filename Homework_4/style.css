@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    height: 700px;
+
+}
+.a{
+    width: 100%;
+    height: 100px;
+    background: cornsilk;
+}
+.main_box{
+    width: 100%;
+    display: flex;
+}
+.abcdefg{
+    width: 75%;
+    height: 300px;
+}
+.abc{
+     display: flex;
+    column-gap: 3px;
+    width: 100%;
+    height: 150px;
+    background: lightcoral;
+
+}
+.efg{
+    display: flex;
+    column-gap: 3px;
+    width: 100%;
+    height: 150px;
+    background: gray;
+}
+.b, .c, .d{
+
+
+    width: 33.33333333%;
+    height: 150px;
+     background: deeppink;
+ }
+.e, .f, .g {
+    width: 33.33333333%;
+    height: 150px;
+    background: peachpuff;
+}
+.h{
+    width: 25%;
+    height: 300px;
+    background: cadetblue;
+}
