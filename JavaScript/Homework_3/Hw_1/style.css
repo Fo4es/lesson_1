@@ -1,0 +1,10 @@
+.product-image{
+    width: 400px;
+}
+.product-card{
+    border: solid goldenrod 2px;
+    width: 400px;
+}
+h3{
+    background: #25a0b1;
+}
