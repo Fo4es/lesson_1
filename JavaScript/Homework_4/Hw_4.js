@@ -40,7 +40,7 @@
 //         console.log(item);
 //     }
 // }
-// iterator(users);
+// iterator(massive);
 //
 
 // function Text(a){
@@ -89,7 +89,8 @@
 // }
 // object(users);
 
-// - створити функцію яка повертає найменьше число з масиву
+//- створити функцію яка повертає найменьше число з масиву
+
 // function number(array) {
 //     let min = array[0];
 //     for (const item of array) {
