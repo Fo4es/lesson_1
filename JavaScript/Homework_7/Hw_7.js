@@ -142,3 +142,43 @@
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+// class  Cindrella {
+//     constructor(name, age, sizeleg) {
+//         this.name = name;
+//         this.age = age;
+//         this.sizeleg = sizeleg;
+//     }
+// }
+// Cinderella1  = new Cindrella("viktoria",22,37);
+// Cinderella2 = new Cindrella("maria",23,35);
+// Cinderella3 = new Cindrella("olga",29,36);
+// Cinderella4 = new Cindrella("alla",30,39);
+// Cinderella5 = new Cindrella("alina",19,34);
+// Cinderella6 = new Cindrella("viktoria",22,40)
+// Cinderella7 = new Cindrella("olga",27,38);
+// Cinderella8 = new Cindrella("viktoria",19,34);
+// Cinderella9 = new Cindrella("alla",18,35);
+// Cinderella10 = new Cindrella("alina",25,40);
+//
+// let push = function(...Cindrella) {
+//     let container = [];
+//     container.push(...Cindrella);
+//     return container;
+// }
+// let Cindrellas = push(Cinderella1 ,Cinderella2,Cinderella3,Cinderella4,Cinderella5,Cinderella6,Cinderella7,Cinderella8,Cinderella9,Cinderella10);
+// console.log(Cindrellas);
+//
+// class Prince{
+//     constructor(name, age, findshoe) {
+//         this.name = name;
+//         this.age = age;
+//         this.findshoe = findshoe;
+//     }
+// }
+// Prince1 = new Prince("karl","26",37);
+  //console.log(container1);
+// for (let i = 0; i < Cindrellas.length; i++) {
+//     if(Cindrellas[i].sizeleg===Prince1.findshoe) console.log(Cindrellas[i]);
+// }
+// let finder = Cindrellas.find(value => value.sizeleg===Prince1.findshoe);
+// console.log(finder);
