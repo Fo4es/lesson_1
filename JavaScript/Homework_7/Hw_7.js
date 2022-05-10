@@ -176,7 +176,6 @@
 //     }
 // }
 // Prince1 = new Prince("karl","26",37);
-  //console.log(container1);
 // for (let i = 0; i < Cindrellas.length; i++) {
 //     if(Cindrellas[i].sizeleg===Prince1.findshoe) console.log(Cindrellas[i]);
 // }
